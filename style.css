@@ -1,0 +1,149 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card{
+    height: 140vh;
+    width: 20%;
+    margin: auto;
+}
+.card-header{
+    background-color: #2D7FF9;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    height: 3em;
+
+}
+.card-header h2{
+    color: hsl(0,0%,100%);
+    padding: 1em;
+    font-size: 1.2em;
+
+}
+.card-body{
+    background-color: #d0f0fd;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.card_top_text{
+    color: black;
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: justify;
+}
+.card_top_text h3{
+    margin-bottom: 0.5em;
+}
+.card_top_text p{
+    padding: 1px;
+}
+.card_mid_text{
+    display: flex;
+    margin-top: 1.2em;
+    justify-content: space-around;
+    margin-left: 0.9em;
+}
+.card_mid_text h4{
+    font-weight: 600;
+    font-size: 3.5em;
+}
+.card_mid_text p{
+    padding: 1em;
+    font-size: 1.2em;
+}
+.pill{
+    display: flex;
+    justify-content: center;
+    background-color: #2D7FF9;
+    width: 15em;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 1.2em;
+
+}
+.pill a{
+    text-decoration: none;
+    color:hsl(0,0%,100%) ;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 600;
+}
+.pill:hover{
+    background-color: #0768f8;
+}
+.card_footer{
+    margin-top: 1em;
+    padding: 1em;
+}
+.footer_header{
+    font-size: 1.2em;
+}
+iconify-icon{
+    font-size: 1.5em;
+}
+.bottom{
+    border-bottom: dotted;
+}
+.card_data{
+    display: flex;
+    margin-top: 0.5em;
+}
+
+.card_footer_text{
+    font-size: 1.2em;
+}
+/* 0768F8 */
+@media(max-width:762px){
+    .card{
+        height: 100vh;
+        width: 90%;
+        margin: auto;
+    }
+    .card-header{
+        background-color: #2D7FF9;
+        border-top-right-radius: 14px;
+        border-top-left-radius: 14px;
+        height: 3em;
+    
+    }
+    .card-header h2{
+        color: hsl(0,0%,100%);
+        padding: 1em;
+        font-size: 1.2em;
+    
+    }
+    .card_mid_text{
+        display: flex;
+        margin-top: 1.2em;
+        justify-content: flex-start;
+        margin-left: 1.2em;
+    }
+    .card_mid_text h4{
+        font-weight: 600;
+        font-size: 3.5em;
+    }
+    .card_mid_text p{
+        font-size: 1.2em;
+    }
+    .pill{
+        display: flex;
+        /* justify-content: flex-start; */
+        text-align: start;
+        background-color: #2D7FF9;
+        width: 10em;
+        margin-top: 1em;
+        border-radius: 1.2em;
+        margin-left: 1em;
+    
+    }
+    .pill a{
+        text-decoration: none;
+        color:hsl(0,0%,100%) ;
+        padding: 1em;
+        font-size: 1em;
+        font-weight: 600;
+    }
+}
