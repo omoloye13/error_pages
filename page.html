@@ -7,10 +7,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Error 419</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 200;
+
+        }
         .border{
             width: 2em;
             height: 5vh;
             /* border-bottom: 2px solid; */
+        }
+        @media(max-width:650px){
+            .sup_one{
+                font-size: 3.5em !important;
+                margin-top: 1em;
+            }
+            .sub_one{
+                font-size: 1.2em !important;
+            }
         }
       
      
@@ -19,15 +36,15 @@
 <body>
     <main>
         <div class="flex justify-center mt-10 pt-5">
-            <h1 class="text-9xl font-extrabold">419</h1>
+            <h1 class="text-9xl font-extrabold sup_one">419</h1>
             </div>
             <div class="flex justify-center">
                 <!-- <hr class="border-violet-500 ml-18"> -->
-                <div class="text-gray-400 text-3xl mt-10">Sorry, your session has expired.<br> <span class="pt-9"> Please refresh and try again.</span></div>
+                <div class="text-gray-400 text-3xl mt-10 sub_one">Sorry, your session has expired.<br> <span class="pt-9"> Please refresh and try again.</span></div>
 
             </div>
             <div class="flex justify-center">
-                <a href="index.html" class="text-3xl text-gray-500" > clickHome</a>
+                <a href="index.html" class="text-3xl text-gray-500 sub_one" > clickHome</a>
 
             </div>
 
